@@ -1,0 +1,14 @@
+# Dataset config — edit this to match YOUR dataset (YOLO format).
+# Expected layout:
+#   datasets/my_dataset/images/train, images/val
+#   datasets/my_dataset/labels/train, labels/val
+path: datasets/my_dataset
+train: images/train
+val: images/val
+
+# Replace with the classes you actually labeled:
+names:
+  0: person
+  1: car
+  2: bicycle
+  3: traffic light
